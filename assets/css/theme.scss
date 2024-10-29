@@ -1,5 +1,3 @@
----
----
 
 // start content
 
@@ -610,6 +608,6 @@ span.navigation:before {
 }
 
 .hover-opacity:hover {
-    transition: all.3s;
+    transition: all 0.3s; // Correct syntax with space and decimal point
     opacity:.8;
 }
